@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'arcticicestudio/nord-vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'valloric/youcompleteme'
+Plug 'gabrielelana/vim-markdown'
 call plug#end()
 
 syntax enable

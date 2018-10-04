@@ -44,3 +44,16 @@ let g:NERDCompactSexyComs = 1
 " airline theme
 
 let g:airline_theme="deus"
+
+" Use clipboard
+
+if has("clipboard")
+  set clipboard=unnamed " copy to the system clipboard
+
+  if has("unnamedplus") " X11 support
+    set clipboard+=unnamedplus
+  endif
+endif
+
+" allow backspace to delete text outside of current session
+set backspace=indent,eol,start
